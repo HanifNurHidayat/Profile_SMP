@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaleriActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kegiatan Upacara Bendera"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/upacara_bendera_3"/>
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/upacara_bendera_4"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kegiatan Khotbah Jumat"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/hsv_1"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/khotbah_jumat_1"/>
+
+                <ImageView
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/khotbah_jumat_2"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memperingati Hari Kartini"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/hsv_2"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/hari_kartini_4"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/hari_kartini_5"/>
+
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+    </RelativeLayout>
+</ScrollView>

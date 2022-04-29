@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GuruActivity"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/g1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru"/>
+
+            <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guru_1"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/galeri1"
+            android:paddingStart="30dp"
+            android:paddingEnd="0dp"/>
+
+            <TextView
+                android:id="@+id/tv_1.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nip_1"
+                android:textColor="#FF0000"
+                android:textSize="11sp"
+                android:layout_below="@id/tv_1"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri1"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g2"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/g1"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guru_2"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri2"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"/>
+
+            <TextView
+                android:id="@+id/tv_2.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nip_2"
+                android:textColor="#FF0000"
+                android:textSize="11sp"
+                android:layout_below="@id/tv_2"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri2"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri3"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_3"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_3.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri3"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_3"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_3"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri4"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_4"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_4.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri4"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_4"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_4"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri5"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_5"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_5.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri5"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_5"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_5"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri6"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri6"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_6"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_6.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri6"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_6"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_6"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri7"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri7"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_7"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_7.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri7"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_7"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_7"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri8"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri8"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_8"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_8.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri8"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_8"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_8"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri9"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri9"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_9"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_9.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri9"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_9"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_9"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri10"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri10"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_10"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_10.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri10"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_10"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_10"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g11"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri11"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri11"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_11"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv11.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri11"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_11"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_11"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri12"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri12"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_12"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_12.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri12"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_12"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_12"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g13"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri13"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri13"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_13"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_13.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri13"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_13"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_13"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g14"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g13"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri14"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri14"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_14"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_14.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri14"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_14"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_14"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g15"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g14"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri15"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri15"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_15"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_15.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri15"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_15"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_15"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g16"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri16"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri16"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_16"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_16.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri16"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_16"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_16"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g17"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g16"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri17"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri17"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_17"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_17.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri17"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_17"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_17"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g18"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g17"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri18"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri18"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_18"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_18.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri18"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_18"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_18"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g19"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g18"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri19"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri19"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_19"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_19.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri19"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_19"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_19"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g20"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g19"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri20"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri20"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_20"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_20.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri20"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_20"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_20"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g21"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g20"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri21"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri21"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_21"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_21.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri21"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_21"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_21"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g22"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g21"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri22"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri22"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_22"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_22.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri22"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_22"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_22"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g23"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri23"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri23"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_23"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_23.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri23"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_23"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_23"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g24"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g23"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri24"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri24"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_24"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_24.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri24"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_24"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_24"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g25"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g24"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri25"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri25"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_25"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_25.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri25"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_25"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_25"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g26"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g25"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri26"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri26"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_26"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_26.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri26"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_26"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_26"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g27"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g26"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri27"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri27"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_27"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_27.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri27"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_27"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_27"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g28"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g27"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri28"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri28"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_28"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_28.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri28"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_28"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_28"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g29"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g28"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri29"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri29"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_29"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_29.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri29"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_29"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_29"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g30"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g29"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri30"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri30"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_30"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_30.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri30"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_30"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_30"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g31"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g30"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri31"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri31"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_31"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_31.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri31"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_31"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_31"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g32"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g31"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri32"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri32"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_32"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_32.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri32"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_32"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_32"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g33"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g32"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri33"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri33"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_33"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_33.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri33"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_33"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_33"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g34"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g33"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri34"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri34"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_34"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_34.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri34"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_34"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_34"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g35"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g34"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri35"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri35"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_35"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_35.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri35"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_35"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_35"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g36"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g35"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri36"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri36"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_36"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_36.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri36"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_36"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_36"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g37"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g36"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri37"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri37"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_37"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_37.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri37"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_37"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_37"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g38"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g37"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri38"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri38"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_38"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_38.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri38"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_38"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_38"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g39"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g38"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri39"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri39"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_39"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_39.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri39"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_39"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_39"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g40"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g39"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri40"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri40"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_40"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_40.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri40"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_40"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_40"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g41"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g40"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri41"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri41"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_41"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_41.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri41"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_41"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_41"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g42"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g41"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri42"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri42"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_42"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_42.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri42"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_42"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_42"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g43"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g42"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri43"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri43"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_43"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_43.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri43"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/nip_43"
+                android:textColor="#FF0000"
+                android:layout_below="@id/tv_43"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g44"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g43"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri44"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri44"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_44"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g45"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g44"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri45"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri45"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_45"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g46"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g45"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri46"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri46"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_46"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g47"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g46"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri47"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri47"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_47"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g48"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g47"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri48"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri48"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_48"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g49"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g48"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri49"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri49"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_49"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g50"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g49"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri50"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri50"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_50"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g51"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri51"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri51"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_51"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g52"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g51"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri52"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri52"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_52"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g53"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g52"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri53"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri53"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_53"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g54"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g53"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri54"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri54"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_54"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g55"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g54"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri55"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri55"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_55"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g56"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g55"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri56"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri56"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_56"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g57"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g56"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri57"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_57"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri57"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_57"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g58"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g57"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri58"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri58"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_58"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g59"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g58"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond">
+
+            <ImageView
+                android:id="@+id/galeri59"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fguru" />
+
+            <TextView
+                android:id="@+id/tv_59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri59"
+                android:paddingStart="30dp"
+                android:paddingEnd="0dp"
+                android:text="@string/guru_59"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

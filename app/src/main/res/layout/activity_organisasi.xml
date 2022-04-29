@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OrganisasiActivity"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/g1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/backgruond"
+            android:onClick="osisclick">
+
+            <ImageView
+                android:id="@+id/galeri1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_osis"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organisasi Osis"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri1"
+                android:paddingStart="80dp"
+                android:paddingEnd="0dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g2"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/g1"
+            android:background="@drawable/backgruond"
+            android:onClick="pmrclick">
+
+            <ImageView
+                android:id="@+id/galeri2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_pmr"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organisasi PMR"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri2"
+                android:paddingStart="80dp"
+                android:paddingEnd="0dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/g3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/g2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgruond"
+            android:onClick="pramukaclick">
+
+            <ImageView
+                android:id="@+id/galeri3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_pramuka" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/galeri3"
+                android:paddingStart="80dp"
+                android:paddingEnd="0dp"
+                android:text="Organisasi Pramuka"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

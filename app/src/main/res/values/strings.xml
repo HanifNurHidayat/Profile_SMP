@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">SMP 1 Jaten</string>
+    <string name="labkom">Laboratorium Komputer di SMP 1 Jaten digunakan untuk kegiatan pembelajaran. Terdapat 3 ruang komputer tiap ruang yang dapat hingga menampung kapasitas kurang lebihnya 30 meja komputer, serta  dilengkapi dengan projector, spesifikasi komputer menyesuaikan kebutuhan pembelajaran yang berlangsung.</string>
+    <string name="labipa">Laboratorium terdiri dari lab fisika, biologi, dan ada juga lab bahasa. Masing-masing lab digunakan untuk kegiatan pembelajaran dan praktikum siswa.</string>
+    <string name="perpus">Perpustkaan adalah tempat untuk siswa mencari referensi tentang pembelajaran atau juga digunakaan untuk refresing saat sedang merasa jenuh. Maka dari itu perpustakaan di sini menyediakan berbagai macam jenis buku, dan meja, kursi baca, serta kipas angin yang membuat lebih nyaman saat membaca maupun saat kerja kelompok.</string>
+    <string name="masjid">Ibadah adalah kewajiban semua umat beragama, dikarenkan siswa SMP 1 Jaten mayoritas beragama islam, maka masjid sangat dibutuhkan untuk tempat ibadah sholat wajib 5 waktu.</string>
+    <string name="aula">Aula biasanya digunakan untuk rapat pertemuan orang tua atau saat ada acara dan event-event besar. Bangunan ini juga digunakan saat penerimaan siswa baru (MPLS).</string>
+    <string name="uks">UKS adalah tempat untuk merawat siswa yang sedang tidak badan atau sakit. UKS biasanya tersedia kotak P3K, obat-obatan, serta tempat tidur.</string>
+    <string name="lapangan_voli">Lapangan voli digunakan untuk kegiatan praktek pembelajaran olahraga bola voli.</string>
+    <string name="lapangan_sepak_bola">Lapangan sepak bola biasanya digunakan siswa untuk bermain bola saat istirahat.</string>
+    <string name="lapangan_basket">Lapangan basket digunakan untuk kegiatan praktek pembelajaran olahraga bola basket.</string>
+    <string name="profile">PROFILE SMP 1 JATEN</string>
+    <string name="identitas_sekolah">Nama Sekolah	:	SMP N 1 JATEN
+                                    \n
+                                    \nNPSN	:	20312058
+                                    \n
+                                    \nNSS	:	201031311054
+                                    \n
+                                    \nBentuk Pendidikan	:	SMP
+                                    \n
+                                    \nAlamat	:	Jl. Lawu Jaten Karanganyar
+                                    \n
+                                    \nKecamatan	:	Kec. Jaten
+                                    \n
+                                    \nKabupaten/Kota	:	Kab. Karanganyar
+                                    \n
+                                    \nPropinsi	:	Prop. Jawa Tengah
+                                    \n
+                                    \nKode Pos	:	57771
+                                    \n
+                                    \nStatus Sekolah	:	Negeri
+                                    \n
+                                    \nStatus Kepemilikan	:	Pemerintah Daerah
+    </string>
+    <string name="guru_1">Drs. Harry Pramudjoko</string>
+    <string name="guru_2">Slamet Harmono, S.Pd.,S.Kom., M.M.</string>
+    <string name="guru_3">Harini Endang Sri Rahayu,S.Pd.</string>
+    <string name="guru_4">Muhimmah Widyani NR.S.Pd.</string>
+    <string name="guru_5">Dwi Ariastuti, S.Pd.</string>
+    <string name="guru_6">Atik Dwi Rohmani, S.Pd.</string>
+    <string name="guru_7">Farikhah Yuni Iriyanti, S.Pd.</string>
+    <string name="guru_8">Eka Setyaningsih, S.Pd.</string>
+    <string name="guru_9">Drs. A. Pana</string>
+    <string name="guru_10">Tri Wahyuningsih, S.Pd.</string>
+    <string name="guru_11">Tumini, S.Pd.</string>
+    <string name="guru_12">Dyah Sulistya Kawuryan, S.Pd.</string>
+    <string name="guru_13">Suyatini, S.Pd.</string>
+    <string name="guru_14">Purwani Setyaningsih, S.Pd.</string>
+    <string name="guru_15">Sugiyartini, S.Pd.</string>
+    <string name="guru_16">Titik Susilowati, S.Pd.</string>
+    <string name="guru_17">Catur Rini, S.Sn.</string>
+    <string name="guru_18">Herawan Andreas W, SS</string>
+    <string name="guru_19">Sri Purwanti, S.Pd., M.Pd.</string>
+    <string name="guru_20">Sukarno Hendro Atmojo, S.Pd.</string>
+    <string name="guru_21">Nanik Rusdiastuti, S.Ag. M.Pd.I.</string>
+    <string name="guru_22">Fatimah, S.Pd. M.Pd.</string>
+    <string name="guru_23">Katrin Kusala, S.Pd.</string>
+    <string name="guru_24">Surtini Puji Hastuti, S.Pd., M.M.</string>
+    <string name="guru_25">Anik Praptiningsih, S.Pd.</string>
+    <string name="guru_26">Diana Dyah Perwitasari, S.Pd.</string>
+    <string name="guru_27">Endang Sapta Wijayanti, S.Pd.</string>
+    <string name="guru_28">Yuni Sri Rejeki, S.Pd.</string>
+    <string name="guru_29">Nanik Priandjani, S.S.</string>
+    <string name="guru_30"> Wahyudi, S.Ag.</string>
+    <string name="guru_31">Inti Wahyuni, S.Pd.</string>
+    <string name="guru_32">Agung Satriyo Kristomo,S.Pd.</string>
+    <string name="guru_33">Nining Tri Habsari, S.Kom.</string>
+    <string name="guru_34">Andika Bhakti Wibowo, S.Pd.</string>
+    <string name="guru_35">Priyo Widayanto, S.Pd.</string>
+    <string name="guru_36">Anik Widyawati, S.Pd.</string>
+    <string name="guru_37">Qomarudin, S.Pd.</string>
+    <string name="guru_38">Tri Wibowo, S.Pd.</string>
+    <string name="guru_39">Krisantus Sudaryadi, S.Ag.</string>
+    <string name="guru_40">Suratno</string>
+    <string name="guru_41">Sri Purwanti</string>
+    <string name="guru_42">Suparman</string>
+    <string name="guru_43">Warseno</string>
+    <string name="guru_44">Sri Rahayu</string>
+    <string name="guru_45">Sardi</string>
+    <string name="guru_46">Novitasari Wijayanti, S.Pust.</string>
+    <string name="guru_47">Fredesvinda  Kusuma Astutti S., S.Pd.</string>
+    <string name="guru_48">Annisa Ukhti Luqmana Putri. A.Md.</string>
+    <string name="guru_49">Rusdiyan Eko Saputro</string>
+    <string name="guru_50">Hepy Astuti, S.Pd.</string>
+    <string name="guru_51">Isnaini Nur Romadhona, S.E.</string>
+    <string name="guru_52">Dimas Dwi Putra Sambodo</string>
+    <string name="guru_53">Asfanudin S.Pd.I., M.Pd</string>
+    <string name="guru_54">Teguh Agil Wibowo, S.Pd</string>
+    <string name="guru_55">Ribka Litani Elsaday, S.Pd.</string>
+    <string name="guru_56">Nohandika Pratama, S.Pd.</string>
+    <string name="guru_57">Rosa Dewi Marta Wulansari,S.Pd.</string>
+    <string name="guru_58">Bonita Mahendra Jati</string>
+    <string name="guru_59">Agoestina Wijayanti, S.Pd.</string>
+    <string name="nip_1">19680115 199703 1 003</string>
+    <string name="nip_2">19630206 198501 1 002</string>
+    <string name="nip_3">19670122 198902 2 001</string>
+    <string name="nip_4">19660202 198903 2 018</string>
+    <string name="nip_5">19620418 198403 2 007</string>
+    <string name="nip_6">19640618 198601 2 002</string>
+    <string name="nip_7">19630628 198301 2 001</string>
+    <string name="nip_8">19630925 198403 2 004</string>
+    <string name="nip_9">19620520 199802 1 001</string>
+    <string name="nip_10">19670410 199103 2 012</string>
+    <string name="nip_11">19701111 199702 2 001</string>
+    <string name="nip_12">19650315 198501 2 001</string>
+    <string name="nip_13">19621106 198703 2 003</string>
+    <string name="nip_14">19680116 199802 2 003</string>
+    <string name="nip_15">19620915 198501 2 000</string>
+    <string name="nip_16">19660822 198902 2 003</string>
+    <string name="nip_17">19721014 200312 1 002</string>
+    <string name="nip_18">19690817 200501 1 013</string>
+    <string name="nip_19">19770811 200501 2 014</string>
+    <string name="nip_20">19640606 200604 1 005</string>
+    <string name="nip_21">19700601 200701 2 018</string>
+    <string name="nip_22">19650209 200604 2 003</string>
+    <string name="nip_23">19691122 200701 2 014</string>
+    <string name="nip_24">19721130 200701 2 008</string>
+    <string name="nip_25">19750502 200701 2 049</string>
+    <string name="nip_26">19791228 200801 2 018</string>
+    <string name="nip_27">19710408 200701 2 010</string>
+    <string name="nip_28">19760622 200902 2 001</string>
+    <string name="nip_29">19720424 200801 2 004</string>
+    <string name="nip_30">19690310 200701 1 034</string>
+    <string name="nip_31">19751031 200701 2 005</string>
+    <string name="nip_32">19831017 200903 1 005</string>
+    <string name="nip_33">19791209 201001 2 012</string>
+    <string name="nip_34">19850318 201001 1 012</string>
+    <string name="nip_35">19800304 200801 1 008</string>
+    <string name="nip_36">19771026 201001 2 003</string>
+    <string name="nip_37">19750901 200801 1 013</string>
+    <string name="nip_38">19690226 200701 1 023</string>
+    <string name="nip_39">19661013 200701 1 013</string>
+    <string name="nip_40">19660705 200701 1 023</string>
+    <string name="nip_41">19661228 200701 2 008</string>
+    <string name="nip_42">19650912 198603 1 018</string>
+    <string name="nip_43">19640727 200701 1 017</string>
+    <string name="visi">“Terwujudnya lulusan yang berbudi, sehat, dan berprestasi,serta berwawasan lingkungan”</string>
+    <string name="misi">1. Meningkatkan pembinaan keagamaan, ibadah, dan doa
+                        \n
+                        \n2. Membiasakan perilaku sopan dan santun serta akhlak mulia
+                        \n
+                        \n3. Membiasakan hidup sehat melalui olahraga dan perilaku sehat
+                        \n
+                        \n4. Meningkatkan prestasi akademik dan non akademik
+                        \n
+                        \n5. Melaksanakan bimbingan dan pelatihan menghadapi lomba dan ujian
+                        \n
+                        \n6. Melaksanakan program 7K dan pengelolaan lingkungan hidup
+    </string>
+    <string name="sejarah_smp">Sampai dengan tahun 1983 Kecamatan Jaten belum memiliki Sekolah Menengah Pertama Negeri. Atas usaha bersama antara pemerintah daerah dan para warganya, maka sebidang tanah milik warga yang letaknya strategis dan mudah dijangkau dari segala arah di desa Jaten diberi ganti rugi oleh pemerintah untuk pendirian SMP Negeri 1 Jaten. Penerimaan siswa baru pertama  tahun pelajaran 1983/1984 sementara di SDN 1 Jaten.
+                            \n
+                            \nBerdasarkan Surat Keputrusan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 0472/0/1983 ditetapkan tanggal 7 Nopember 1983 mulai berlaku kegiatan belajar mengajar di gedung sekolah baru dengan 6 ruang belajar, 1 ruang guru, 1 ruang laboratorium IPA, 1 ruang kepala sekolah, 1 ruang tata usaha serta 2 kamar mandi.
+                            \n
+                            \nSeiring perjalanan waktu, SMP Negeri 1 Jaten terus mengalami pertumbuhan dan perkembangan. Secara fisik sekarang ruang belajar terdiri dari 24 ruang, 2 lab. IPA, 2 LAB. Bahasa, 2 lab. Komputer, 1 ruang tata boga, 1 ruang tata busana, 1 ruang elektronika, I ruang aula dll.
+                            \n
+                            \nStatus sekolah SSN sejak tahun 2007 dengan akreditasi A. Jumlah tenaga pendidik 50 orang guru dengan klasifikasi pendidikan 8 orang S2, 42 orang S1. Jumlah guru tersebut telah tersertifikasi sebagai guru professional 41 orang.
+                            \n
+                            \nSelain Sekolah Standar Nasional, beberapa predikat yang disandang SMP Negeri 1 Jaten adalah sebagai sekolah Adiwityata, Sekolah Berwawasan Gender, Sekolah kelas Olah Raga, dan sekolah berbasis karakter dan nasionalisme.
+                            \n
+                            \nBerbagai macam prestasi siswa maupun guru, baik akademik maupun non akademik telah diraih, untuk kejuaraan tingkat kabupaten/kota, povinsi, nasional maupun regional.
+                            \n
+                            \nKepala Sekolah yang memimpin SMP Negeri 1 Jaten sejak tahun 1983 sampai sekarang berturut-turut adalah :
+                            \n
+                            \n1. CH. Suginah Suwardji, tahun 1983 – 1987
+                            \n2. S. Dibyo Sanjaya, tahun 1987 – 1992
+                            \n3. P. Soedarmadi, tahun 1992 – 1996
+                            \n4. Dullah Hartanto, tahun 1996 – 1998
+                            \n5. Drs. Sunar Tri Suyanto, tahun 1998 – 2002
+                            \n6. Drs. Soekarmo, tahun 2002 – 2008
+                            \n7. Sri Djoko Widodo,SH. , tahuN 2008 – 2011
+                            \n8. Drs. H. Suriyanto,M.Pd., tahun 2011 – 2013
+                            \n9. H. Mujiyono,S.Pd., M.Pd. tahun 2013 – 2013
+                            \n10. Arif Kusnandar,M.M. tahun 2013 – 2015
+                            \n11. Murjito, S.Pd, MM 2015-2019
+                            \n12. Drs. Harry Pramudjoko 2019 – Sekarang
+    </string>
+    <string name="osis">OSIS sebagai wadah bagi peserta didik di sekolah untuk mencapai tujuan pembinaan dan pengembangan siswa yang sesuai dengan visi-misi sekolah. Pengurus OSIS adalah peserta didik yang dipilih berdasarkan prestasi, dan keaktifan peserta didik di lingkungan sekolah.
+                        \nOSIS dibentuk dengan tujuan pokok: Menghimpun ide, pemikiran, bakat, kreativitas, serta minat para siswa ke dalam salah satu wadah yang bebas dari berbagai macam pengaruh negative dari luar sekolah.</string>
+    <string name="pmr">Palang Merah Remaja atau PMR adalah suatu organisasi binaan dari Palang Merah Indonesia yang berpusat di sekolah-sekolah ataupun kelompok-kelompok masyarakat (sanggar, kelompok belajar, dll.) yang bertujuan membangun dan mengembangkan karakter Kepalangmerahan agar siap menjadi Relawan PMI pada masa depan.
+                    \n
+                    \n Tujuan dari PMR adalah sebagai berikut:
+                    \n
+                    \n1. Memberi Pertolongan Pertama.
+                    \n2. Mengadakan Kegiatan-kegiatan Sosial.
+                    \n3. Menggalang Dana Kemanusiaan.
+                    \n4. Mengajak Siswa Lain untuk Menerapkan Pola Hidup Sehat.
+                    \n5. Mengurus dan Menjaga UKS.
+                    \n6. Selalu Siaga Terhadap Bencana.
+                    \n7. Menjaga Kesehatan Lingkungan.
+                    \n8. Melakukan Aksi Sosial.</string>
+    <string name="pramuka">Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Dalam dunia internasional, Pramuka disebut dengan istilah “Kepanduan”.
+                    \nTujuan Pramuka Pada dasarnya kegiatan Kepramukaan memiliki tujuan untuk melatih generasi muda agar memaksimalkan setiap potensi yang ada di dalam dirinya, baik itu intelektual, spiritual, sosial, dan fisik.</string>
+
+</resources>

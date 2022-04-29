@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/iv_sekolah"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:background="@drawable/sekolah"/>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="@string/profile"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:layout_below="@+id/iv_sekolah"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv1"
+                android:padding="10dp"
+                android:text="@string/identitas_sekolah"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_centerHorizontal="true"
+                android:text="Visi dan Misi"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tv2"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:text="Visi:"
+                android:paddingStart="5dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tv3"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:text="@string/visi"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_below="@+id/tv4"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:text="Misi :"
+                android:paddingStart="5dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tv5"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:text="@string/misi"
+                android:padding="10dp"
+                android:layout_below="@+id/tv6"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="Sejarah Singkat"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/tv7"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:text="@string/sejarah_smp"
+                android:padding="10dp"
+                android:lineSpacingExtra="0.3mm"
+                android:letterSpacing="0.015"
+                android:layout_below="@+id/tv8"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
